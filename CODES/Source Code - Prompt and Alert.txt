@@ -1,0 +1,6 @@
+ let firstName = prompt("What is your first name?");
+  if(firstName != ""){
+    alert("Welcome " + firstName);
+  } else {
+    alert("It was blank?");
+  }

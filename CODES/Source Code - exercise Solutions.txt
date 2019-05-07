@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>JavaScript Fundamentals</title>
+</head>
+<body>
+  <script>
+
+    /// ask the user their name
+    // check if the name is a string type
+    // if true then exectue a block of code console log welcome and has an alert
+    // if false ask the name again
+    let q;
+    do {
+       q = prompt("what is your name?");
+    }
+    while(Number(q));
+    console.log("welcome to my page "+q);
+    alert("welcome to my page "+q);
+
+/*
+    askMe();
+    function askMe(){
+      let q = prompt("what is your name?");
+      if(!Number(q)){
+        console.log("welcome to my page "+q);
+        alert("welcome to my page "+q);
+      }else{
+        console.log("A number? "+q);
+        askMe();
+      }
+    }
+*/
+
+  </script>
+</body>
+
+</html>

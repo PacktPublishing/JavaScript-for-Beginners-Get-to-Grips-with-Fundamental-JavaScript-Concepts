@@ -1,0 +1,19 @@
+  /// ask the user their name
+    // check if the name is a string type
+    // if true then exectue a block of code console log welcome and has an alert 
+    // if false ask the name again
+    
+
+    let a = 5;
+    console.log(a);
+
+    let c = myFunction('Test 1','Test 2');
+
+    function myFunction(p1,p2){
+      let b = "hello";
+      console.log(p1);
+      console.log(b);
+      console.log(a);
+      alert(p2);
+      return p1 + p2;
+    }

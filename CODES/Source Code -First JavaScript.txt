@@ -1,0 +1,12 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>JavaScript Fundamentals</title>
+
+  </head>
+  <body>
+    <script>
+    alert('hello');
+    </script>
+  </body>
+</html>

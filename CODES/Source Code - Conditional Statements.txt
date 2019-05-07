@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>JavaScript Fundamentals</title>
+</head>
+<body>
+  <script>
+ let a = 5;
+  let b = 10;
+  let c = a > b;
+  let d = "10";
+  console.log(b !== d);
+  console.log(b != d);  
+console.log(b == d);
+
+
+
+ let a = 5;
+  let b = 10;
+  let c = a > b;
+  let d = "10";
+  console.log(b !== d);
+  console.log(b != d);
+  console.log(b == d);
+
+  if(b === d){
+    console.log("equal :) TRUE");
+    alert("oh yes");
+  } else if(b == d) {
+    console.log("equal but the type is different");
+    alert("oh no");
+  } else {
+    console.log("answer FALSE");
+    alert("oh no");
+  }
+  // ternary
+  let e = (b === d) ? "TRUE value" : "FALSE value";
+  let f = (b == d) ? "TRUE value" : "FALSE value";
+
+
+  </script>
+</body>
+
+</html>

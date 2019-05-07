@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>JavaScript Fundamentals</title>
+</head>
+<body>
+  <script>
+  let a = 5 * (3 + 5);
+  let b = 10 - 5;
+  let c = 18 + 4;
+  let d = 20 / 5;
+  let e = 15 + 5;
+  let f = a % b + 5;
+  a++;
+  b--;
+  </script>
+</body>
+
+</html>

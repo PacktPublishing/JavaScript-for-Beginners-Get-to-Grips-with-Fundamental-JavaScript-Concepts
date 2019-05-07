@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>JavaScript Fundamentals</title>
+
+</head>
+
+<body>
+  <script>
+    var a = "string'\"s"; //string
+    var b = 5; // number
+    var c = true; // boolean
+    let d = 'hello\'s world';
+    let e = 10;
+    let f = false;
+    let firstName = "firstName"; //no spaces
+    let $first = "first"; // $ okay
+    let _first = "first"; // _ okay
+    // can't start with number
+    // no spaces
+    // case sensitive
+    d = "new value";
+
+    alert(d);
+  </script>
+</body>
+
+</html>
